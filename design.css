@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap&family=Josefin+Sans&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #e2d7aa;
+    overflow-x: hidden;
+}
+
+.container
+{
+    width:80%;
+    margin:auto;
+}
+
+img
+{
+    border-radius: 6px;
+}
+
+img:hover
+{
+    opacity:0.8;
+}
+
+.bio-section
+{
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-content
+{
+    max-width:320px;
+    word-wrap: break-word;
+    margin-bottom: 35px;
+}
+
+.section-content h3
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.content-head p
+{
+    padding-top:15px;
+    font-size:18px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.content-head p::after
+{
+    content:"... \00a0 ";
+}
+
+p::first-letter
+{
+    font-size: 25px;
+}
+
+a[href="#"]
+{
+    text-decoration: none;
+}
+
+h3 a[href="#"]:hover
+{
+    color:rgb(65, 65, 65);
+}
+
+.link-opt
+{
+    margin-top: 30px;
+}
+
+.link-opt a
+{
+    width:100%;
+    height:50px;
+    text-decoration: none;
+    padding:10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.link-opt a
+{
+    background-color:#84540b;
+    color: white;
+}
+
+.link-opt a:nth-child(1)::before
+{
+    content:"\0266A \00a0 0";
+}
+
+.link-opt a:hover
+{
+    background-color: #9b630f;
+}
+
+footer .footer 
+{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}  

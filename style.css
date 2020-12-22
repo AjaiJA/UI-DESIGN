@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap&family=Condiment&display=swap&family=Condiment&display=swap&family=Princess+Sofia&display=swap&family=Jim+Nightshade&display=swap&family=Akronim&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    background-color: #355667;
+    overflow-x: hidden;
+}
+.container
+{
+    max-width: 80%;
+    margin:auto;
+}
+div.head-intro
+{
+    display: flex;
+    flex-direction: column;
+    line-height:30px;
+}
+img[title="logo"]
+{
+    justify-content: center;
+}
+.head-logo
+{
+    text-align: center;
+}
+img
+{
+    display: inline-block;
+}
+.head-slogan h3
+{
+    font-family: 'Condiment', cursive;
+    font-style: italic;
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-align: right;
+    color: white;
+}
+nav ul li
+{
+    display: inline;
+}
+nav ul li
+{
+    list-style-type: none;
+}
+nav ul li a
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #66e74a;
+    font-family: 'Lucida Sans',sans-serif;
+    padding-right: 20px;
+}
+nav ul li a[title="nav"]
+{
+    color: #e1f3f6;
+}
+nav ul li:first-of-type > a
+{
+    color:#43abf5;
+}
+nav ul li a:hover
+{
+    color:rgb(187, 187, 187);
+}
+/* nav ul li a:visited
+{
+    color:white;
+} */
+nav ul li a:active
+{
+    color:orange;
+}
+section
+{
+    border-radius: 6px;
+    background-color: #223e4a;
+}
+.content-block
+{
+    padding:20px;
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.content-def
+{
+    float: left;
+}
+.content-img
+{
+    float: right;
+    height:210px;
+    background:url("./img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.content-def p
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:10px;
+    font-size: 15px;
+    color: rgb(82, 255, 47);
+}
+.content-def p + p
+{
+    color:rgb(255, 255, 255);
+}
+.content-img .content-info h2
+{
+    color:white;
+    transform: translate(50%,25%);
+}
+.content-info h2::first-letter
+{
+    font-size: 60px;
+}
+.content-info span#one
+{
+    font-size: 40px;
+    font-family: 'Jim Nightshade', cursive;
+    /* font-family: 'Princess Sofia', cursive; */
+}
+.content-info span#two
+{
+    font-family: 'Condiment', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.content-head h1
+{
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Joti One', cursive;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    font-style: italic;
+    color:white;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+hr
+{
+    height:2px;
+    background-color: black;
+    border:none;
+}
+footer .footer 
+{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: #375565;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding:10px;
+    font-family: monospace, cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}  
