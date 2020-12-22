@@ -1,4 +1,4 @@
-# UI DESIGN 
+# --- UI DESIGN ---
 
        The site is created for basic understanding of HTML and CSS.
         
